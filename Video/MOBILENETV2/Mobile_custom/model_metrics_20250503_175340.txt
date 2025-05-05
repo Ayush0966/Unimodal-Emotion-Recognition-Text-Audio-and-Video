@@ -1,0 +1,26 @@
+Model Evaluation Metrics
+=======================
+
+Evaluation Time: 20250503_175340
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       angry       0.41      0.35      0.38       958
+     disgust       0.36      0.47      0.41       111
+        fear       0.40      0.28      0.33      1024
+       happy       0.63      0.72      0.67      1774
+     neutral       0.44      0.49      0.47      1233
+         sad       0.39      0.40      0.40      1247
+    surprise       0.67      0.68      0.67       831
+
+    accuracy                           0.50      7178
+   macro avg       0.47      0.48      0.48      7178
+weighted avg       0.50      0.50      0.50      7178
+
+
+Additional Metrics:
+Accuracy: 0.5049
+Macro F1 Score: 0.4755
+Weighted F1 Score: 0.4978
+Cohen's Kappa: 0.3990
